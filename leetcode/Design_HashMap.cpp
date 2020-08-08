@@ -7,7 +7,7 @@ Class MyHashMap
 public:
 	MyHashMap(int _size)
 	{
-		hashTable = vector<pair<int, int>>(_size, 0);
+		hashTable = vector<list<pair<int, int>>>(_size, 0);
 	}
 
 	void put(int key, int value)
